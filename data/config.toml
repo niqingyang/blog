@@ -1,0 +1,39 @@
+[tag]
+title = "标签"
+coverIcon = "tag"
+
+[develop]
+title = "开发笔记"
+## <i class="mdui-icon material-icons">memory</i>
+## <i class="mdui-icon material-icons">&#xe322;</i>
+coverIcon = "memory"
+
+[web]
+title = "前端开发"
+## <i class="mdui-icon material-icons">palette</i>
+## <i class="mdui-icon material-icons">&#xe40a;</i>
+coverIcon = "palette"
+
+[record]
+title = "博客状态"
+## <i class="mdui-icon material-icons">toys</i>
+## <i class="mdui-icon material-icons">&#xe332;</i>
+coverIcon = "toys"
+
+[ops]
+title = "运维笔记"
+## <i class="mdui-icon material-icons">security</i>
+## <i class="mdui-icon material-icons">&#xe32a;</i>
+coverIcon = "security"
+
+[software]
+title = "实用软件"
+## <i class="mdui-icon material-icons">apps</i>
+## <i class="mdui-icon material-icons">&#xe5c3;</i>
+coverIcon = "apps"
+
+[sharing]
+title = "好文分享"
+## <i class="mdui-icon material-icons">share</i>
+## <i class="mdui-icon material-icons">&#xe80d;</i>
+coverIcon = "share"
