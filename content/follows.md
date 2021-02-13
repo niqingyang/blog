@@ -5,7 +5,9 @@ draft: false
 format: page
 ## &#xe1e2;
 themeColor: "#1e88e5"
-coverIcon: "wifi_tethering"
+## <i class="mdui-icon material-icons">turned_in</i>
+## <i class="mdui-icon material-icons">&#xe8e6;</i>
+coverIcon: "turned_in"
 coverImage: https://static.acme.top/wp-content/uploads/2019/04/headerbg_links.jpg
 ## 链接配置文件名称
 linksConfig: "follows"

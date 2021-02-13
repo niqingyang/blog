@@ -1,0 +1,23 @@
+[categories]
+other = "标签"
+
+[tags]
+other = "标签"
+
+[develop]
+other = "开发笔记"
+
+[web]
+other = "前端开发"
+
+[record]
+other = "博客状态"
+
+[ops]
+other = "运维笔记"
+
+[software]
+other = "实用软件"
+
+[sharing]
+other = "好文分享"
