@@ -1,3 +1,4 @@
+# https://gohugo.io/getting-started/configuration/
 baseURL = "http://localhost:1313/"
 title = "肆月之风"
 summaryLength = 1
