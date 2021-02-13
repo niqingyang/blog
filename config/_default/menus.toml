@@ -1,0 +1,98 @@
+## 顶部菜单
+
+[[main]]
+name = "首页"
+identifier = "home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "开发笔记"
+identifier = "develop"
+url = "/categories/develop"
+weight = 2
+
+[[main]]
+name = "前端开发"
+identifier = "web"
+url = "/categories/web"
+weight = 3
+
+[[main]]
+name = "运维笔记"
+identifier = "ops"
+url = "/categories/ops"
+weight = 4
+
+[[main]]
+name = "更多"
+identifier = "more"
+url = "#"
+weight = 5
+
+[[main]]
+name = "实用软件"
+parent = "more"
+identifier = "software"
+url = "/categories/software"
+weight = 6
+
+[[main]]
+name = "好文收藏"
+parent = "more"
+identifier = "sharing"
+url = "/categories/sharing"
+weight = 7
+
+[[main]]
+name = "博客状态"
+parent = "more"
+identifier = "record"
+url = "/categories/record"
+weight = 8
+
+[[main]]
+name = "给我留言"
+parent = "more"
+identifier = "guestbook"
+url = "/guestbook"
+weight = 9
+
+[[main]]
+name = "关于"
+parent = "more"
+identifier = "about"
+url = "/about"
+weight = 10
+
+## 底部菜单
+
+[[footer]]
+name = "关于"
+identifier = "about"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "赞助"
+identifier = "footer-zanzhu"
+url = "/zanzhu"
+weight = 2
+
+[[footer]]
+name = "链接"
+identifier = "footer-links"
+url = "/links"
+weight = 3
+
+[[footer]]
+name = "留言簿"
+identifier = "footer-guestbook"
+url = "/guestbook"
+weight = 4
+
+[[footer]]
+name = "阿里云优惠券"
+identifier = "footer-aliyun"
+url = "https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=ggzv2k92"
+weight = 5

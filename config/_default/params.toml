@@ -1,0 +1,99 @@
+## 定义参数
+
+## 控制博客一些静态资源的版本，便于更新
+version = "20201226"
+## 博客副标题
+subtitle = "爱技术·爱分享"
+## 博客的默认主题色
+themeColor = "#00c8ff"
+## 列表和页面中封面图上的默认图标
+coverIcon = "folder"
+## 文章页默认封面图【废弃】
+# coverImage = "https://schepp.dev/img/natalya-letunova-gF8aHM445P4-unsplash.jpg"
+## 文章页封面图遮罩层颜色，可设置透明度等，建议优先使用封面图的主色
+# coverColor = "#00c8ff"
+## 文章页封面图分割：0-默认小图模式 1-大图模式
+coverStyle = 0
+## 文章页封面图上标题的颜色风格：0-默认 1-明亮 2-暗色
+titleStyle = 0
+## 列表页默认封面图
+listCoverImage = "https://static.acme.top/wp-content/uploads/2019/01/headerbg_archive.jpg"
+
+## 二维码赞助渠道设置，注释掉后将隐藏
+[sponsor]
+title = "赞赏"
+description = "如果文章对您有帮助，欢迎给作者打赏"
+
+[[sponsor.channels]]
+name = "支付宝"
+qrcode = "https://static.acme.top/wp-content/uploads/2018/12/alipay_qrcode.png"
+
+[[sponsor.channels]]
+name = "微信"
+qrcode = "https://static.acme.top/wp-content/uploads/2018/12/weixinpay_qrcode.png"
+
+## 社交平台，url为空则会忽略
+[[socialPlatforms]]
+id = "github"
+name = "GitHub"
+url = "https://github.com/niqingyang"
+
+[[socialPlatforms]]
+id = "rss"
+name = "RSS"
+url = ""
+
+[[socialPlatforms]]
+id = "mail"
+name = "邮箱"
+url = "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=niqy@qq.com"
+
+[[socialPlatforms]]
+id = "weibo"
+name = "微博"
+url = ""
+
+[[socialPlatforms]]
+id = "wechat"
+name = "微信"
+url = ""
+
+[[socialPlatforms]]
+id = "douban"
+name = "豆瓣"
+url = ""
+
+[[socialPlatforms]]
+id = "twitter"
+name = "Twitter"
+url = ""
+
+[[socialPlatforms]]
+id = "facebook"
+name = "Facebook"
+url = ""
+
+[[socialPlatforms]]
+id = "gplus"
+name = "Google+"
+url = ""
+
+[[socialPlatforms]]
+id = "linkedin"
+name = "LinkedIn"
+url = ""
+
+[[socialPlatforms]]
+id = "dribbble"
+name = "Dribbble"
+url = ""
+
+[[socialPlatforms]]
+id = "flickr"
+name = "Flickr"
+url = ""
+
+[[footerLinks]]
+name = "冀ICP备18027707号"
+url = "https://beian.miit.gov.cn/"
+

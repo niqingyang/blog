@@ -1,0 +1,41 @@
+baseURL = "http://localhost:1313/"
+title = "肆月之风"
+summaryLength = 1
+## When enabled, creates URL of the form /filename.html instead of /filename/.
+uglyURLs = false
+
+languageCode = "zh"
+defaultContentLanguage = "zh-cn"
+
+theme = "hugo-acme"
+themesdir = "../themes/"
+
+## 定义链接规则
+## https://gohugo.io/content-management/urls/#permalinks
+[permalinks]
+post = "/:filename"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+format = "format"
+
+## markdown 开启对 html 的支持
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe = true
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
+
+## 定义输出格式
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+page = [ "HTML" ]
+teams = [ "HTML" ]
+section = [ "HTML" ]
+
+
