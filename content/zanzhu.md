@@ -1,6 +1,5 @@
 ---
 title: "赞助"
-slug: "zanzhu"
 date: 2021-02-07T23:06:24+08:00
 draft: false
 format: page
@@ -55,3 +54,4 @@ coverIcon: "&#xe263;"
         box-shadow: none !important;
     }
 </style>
+

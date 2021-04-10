@@ -8,7 +8,7 @@ tags:
     - 2020
 themeColor: "#3f2d86"
 coverColor: "#433384f7"
-coverImage: /post/overview-2020/cover.png
+coverImage: /post/2020/overview-2020/cover.png
 ---
 
 ## 前言

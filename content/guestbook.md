@@ -1,6 +1,5 @@
 ---
 title: "留言簿"
-slug: "guestbook"
 date: 2021-02-07T23:06:43+08:00
 draft: false
 format: page

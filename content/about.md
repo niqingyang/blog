@@ -1,6 +1,5 @@
 ---
 title: "关于"
-slug: "about"
 date: 2021-02-07T23:06:07+08:00
 draft: false
 format: page
@@ -42,3 +41,4 @@ coverImage: https://static.acme.top/wp-content/uploads/2018/08/微信图片_2018
 - [博客园](https://www.cnblogs.com/ "博客园") - 老牌的技术分享博客平台
 - [Awesome](https://github.com/sindresorhus/awesome "Awesome") - 汇集了最丰富的技术资源
 - [少数派](https://sspai.com/ "少数派") - 发现更多优秀的应用、网站、使用技巧
+
