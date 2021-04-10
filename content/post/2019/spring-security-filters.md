@@ -10,7 +10,7 @@ tags:
     - java
 themeColor: "#137300"
 themeColor: "#137300f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/07/spring-security.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225041-spring-security.png
 ---
 
 ## Spring Security 的过滤器

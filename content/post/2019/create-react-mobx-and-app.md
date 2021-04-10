@@ -10,7 +10,7 @@ tags:
     - antd
     - mobx
 coverColor: "#252525f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/06/react.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224816-react.png
 ---
 
 ## 前言

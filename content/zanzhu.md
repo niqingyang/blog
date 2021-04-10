@@ -15,7 +15,7 @@ coverIcon: "&#xe263;"
 
 ## 我要赞助
 
-![通过支付宝/微信/QQ扫码上面对应的二维码赞赏](https://static.acme.top/wp-content/uploads/2019/07/mypay.png?w=250&h=306)
+![通过支付宝/微信/QQ扫码上面对应的二维码赞赏](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223948-mypay.png)
 
 ## 赞助说明
 
@@ -27,7 +27,7 @@ coverIcon: "&#xe263;"
 
 4、为了能够对每一笔金额与打赏赞助金主进行确认，希望你可以通过 QQ（994486351）或扫描下方二维码加我微信进行联络确认，或留意我的更新确认。
 
-![扫一扫上面的二维码加我微信](https://static.acme.top/wp-content/uploads/2019/07/paste-d92829fc77c58d83703d87673e69295d-1.png?w=250&h=250)
+![扫一扫上面的二维码加我微信](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223956-paste-d92829fc77c58d83703d87673e69295d-1.png)
 
 ## 赞助名单（时间先后顺序）
 

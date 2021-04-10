@@ -9,7 +9,7 @@ tags:
     - windows
     - linux
 coverColor: "#e3e3e3f7"
-coverImage: https://static.acme.top/wp-content/uploads/2018/12/wsl.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224536-wsl.png
 titleStyle: 1
 ---
 
@@ -48,21 +48,21 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 2. 打开“启用或关闭windows功能”（从微软小娜或者控制面板中搜索打开）：
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-539412671e87211bbae3d1e9c93f2b7d-1.png?w=415&h=418)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205254-paste-539412671e87211bbae3d1e9c93f2b7d-1.png)
 
 ### 选择Linux安装
 
 1. 打开Microsoft Store搜索Linux，会出现Linux的专题，点击“获取这些应用”按钮。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-a12839c7a1c91f431594289a0fb5dc77-1.png?w=1089&h=896)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205259-paste-a12839c7a1c91f431594289a0fb5dc77-1.png)
 
 2. 目前支持的Linux系统有 Ubuntu、SUSE、Debian、Kali，估计以后会支持更多的Linux发行版本，选择一个喜欢的Linux安装，此处我选择的是 Ubuntu 系统。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-ed4fbf3e9d6e56ed8461a29aac78ce14-1.png?w=1099&h=714)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205321-paste-ed4fbf3e9d6e56ed8461a29aac78ce14-1.png)
 
 3. 安装后需要进行初始化，启动一个新的实例，可以通过单击Windows应用商店应用中的“启动”按钮，或从“开始”菜单启动已安装的 Ubuntu 来执行此操作。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-ed15cfca305679eb470fee1539e14f55-1.png?w=324&h=405)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205331-paste-ed15cfca305679eb470fee1539e14f55-1.png)
 
 4. 第一次启动运行时，将打开一个控制台窗口，需要等待一两分钟才能完成安装。
 
@@ -75,7 +75,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 5. 安装完成后，系统将提示您创建新的用户帐户及密码，此账户和密码与windows系统没有任何关系。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-afdf5660d357c5be71d0f51c6ace1d74-1.png?w=941&h=535)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205338-paste-afdf5660d357c5be71d0f51c6ace1d74-1.png)
 
 当打开一个新的Linux命令行窗口后，是不需要输入用户名、密码的，但是如果使用`sudo`命令则将被要求输入密码，建议密码尽量设置的简单一些。
 
@@ -99,7 +99,7 @@ sudo apt update && sudo apt upgrade
 C:/Users/XXX/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/
 ```
 
-![Windows下Linux子系统的目录结构](https://static.acme.top/wp-content/uploads/2018/12/paste-e16e0e673a22721838e5d116b1dd50c3-1.png?w=759&h=446)
+![Windows下Linux子系统的目录结构](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205348-paste-e16e0e673a22721838e5d116b1dd50c3-1.png)
 
 
 2. 在Windows下运行Linux子系统的方法有：
@@ -155,11 +155,11 @@ WSL不仅仅支持 Windows Store 里的那几个 Linux 系统，其实还支持 
 
 但我觉得大部分有需求的基本都是想要个现成的系统来安装，Github [https://github.com/yuk7/wsldl](https://github.com/yuk7/wsldl "https://github.com/yuk7/wsldl") 这个项目就维护了不少 Linux 系统，包括：Alpine Linux、Arch Linux、Artix Linux、CentOS，参考说明即可很方便的安装。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-a8912b71f223a14564f9a62e66daf583-1.png?w=834&h=534)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205358-paste-a8912b71f223a14564f9a62e66daf583-1.png)
 
 由于服务器端一般都选择 CentOS 系统，所以为了保持开发和生产环境一直，我本机安装的是 CentOS，安装非常方便，下载下来安装包后，解压到安装目录下，`以管理员身份运行`CentOS.exe即可，安装完成后通过执行命令 `wslconfig /list` 就会发现wsl下多了个 CentOS 系统。
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-4f0479e74eee351a299bfbe01f8f2c3a-1.png?w=859&h=452)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205405-paste-4f0479e74eee351a299bfbe01f8f2c3a-1.png)
 
 这个 CentOS 其实是从 docker 里镜像过来的，是个精简版的操作系统，很多命令都是缺失的，如果想用需要自己去 `yum` 安装。
 

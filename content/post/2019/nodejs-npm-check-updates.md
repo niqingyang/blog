@@ -8,7 +8,7 @@ tags:
     - nodejs
     - npm
 coverColor: "#942b2bf7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/05/npm-libs.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224944-npm-libs.png
 ---
 
 ## 前言

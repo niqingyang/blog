@@ -10,7 +10,7 @@ tags:
     - javadoc
 # themeColor: "#8bb02e"
 coverColor: "#9bc333f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/01/gradle-javadoc.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224857-gradle-javadoc.png
 ---
 
 <info>

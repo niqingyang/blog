@@ -8,7 +8,7 @@ tags:
     - 2020
 themeColor: "#3f2d86"
 coverColor: "#433384f7"
-coverImage: /post/2020/overview-2020/cover.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230918-cover.png;%20charset=utf-8
 ---
 
 ## 前言

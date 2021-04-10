@@ -3,7 +3,7 @@ title: "Hello World"
 date: 2018-08-25T13:38:49+08:00
 draft: false
 coverColor: rgb(39,40,34,0.97)
-coverImage: https://static.acme.top/wp-content/uploads/2018/08/helloworld.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224448-helloworld.png
 ---
 Hi！你好！欢迎来到ACME.TOP~让一切从这里开始吧！
 

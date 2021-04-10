@@ -9,7 +9,7 @@ tags:
     - java
     - restful
 coverColor: "#575a56f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/03/springboot-restful.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225144-springboot-restful.png
 ---
 
 ## 前言
@@ -71,13 +71,13 @@ Gradle：4+
 
 通过 STS 创建一下新的 Spring Starter Project
 
-![创建项目](https://static.acme.top/wp-content/uploads/2019/03/paste-b876dd0c7e6b2ba4710df29329b4bad1-1.png?w=554&h=795)
+![创建项目](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223402-paste-b876dd0c7e6b2ba4710df29329b4bad1-1.png)
 
 ... 构建过程可能会比较慢
 
 ## 项目目录结构
 
-![目录结构](https://static.acme.top/wp-content/uploads/2019/03/paste-14bca5ff20c21020edf647ebd59ef7e7-1.png?w=424&h=421)
+![目录结构](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223410-paste-14bca5ff20c21020edf647ebd59ef7e7-1.png)
 
 目录及文件说明：
 
@@ -213,17 +213,17 @@ java -jar build/libs/spring-boot-rest-service-0.0.1.jar
 
 随着显示记录输出，服务会在几秒内启动并运行
 
-![](https://static.acme.top/wp-content/uploads/2019/03/paste-9799ab6ba7c01295fcf89cd9e43bbee1-1.png?w=924&h=725)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223418-paste-9799ab6ba7c01295fcf89cd9e43bbee1-1.png)
 
 ## 测试
 
 服务启动后，访问 `http//localhost8080/greeting`
 
-![](https://static.acme.top/wp-content/uploads/2019/03/paste-74f8ca915eb8ca1ad8b93f49a59341f0-1.png?w=387&h=189)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223426-paste-74f8ca915eb8ca1ad8b93f49a59341f0-1.png)
 
 访问使用 `name` 提供查询字符串参数的 `http//localhost8080/greetingname=acme.top`, 会发现 `content` 属性的值从 “Hello，World！” 变为了 “hello, acme.top！”
 
-![](https://static.acme.top/wp-content/uploads/2019/03/paste-c0bfb714c7ba2201064683fbb45d061f-1.png?w=451&h=189)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223436-paste-c0bfb714c7ba2201064683fbb45d061f-1.png)
 
 说明 `GreetingController` 上的 `@RequestParam` 起作用了。`name` 参数被赋予默认值 “World”，然后可以通过查询字符串显式覆盖。
 

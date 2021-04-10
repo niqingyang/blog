@@ -9,7 +9,7 @@ tags:
     - java
 themeColor: "#4a90e2"
 coverColor: "#2e5e86f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/01/gradle.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224913-gradle.png
 ---
 
 ## 创建一个新的Gradle构建

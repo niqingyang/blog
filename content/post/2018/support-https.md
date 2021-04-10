@@ -14,4 +14,4 @@ coverColor: "#57b041"
 
 网站支持HTTPS
 
-![](https://static.acme.top/wp-content/uploads/2018/10/ssl-lab-a.png)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205247-ssl-lab-a.png)

@@ -10,7 +10,7 @@ tags:
     - centos
 themeColor: "#04948c"
 coverColor: "#04948cf7"
-coverImage: https://static.acme.top/wp-content/uploads/2018/12/linux-yum.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224513-linux-yum.png
 ---
 
 ## yum 是什么
@@ -156,7 +156,7 @@ yum install yum-fastestmirror
 ```
 安装插件后就会在每次安装 rpm 包时，都会先加载 fastestmirror 插件寻找最快的镜像了
 
-![](https://static.acme.top/wp-content/uploads/2018/12/paste-31fbbb0d40dafa5b93bbe48fba9652aa-1.png?w=724&h=435)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205239-paste-31fbbb0d40dafa5b93bbe48fba9652aa-1.png)
 
 ## centos 下安装 SCL
 

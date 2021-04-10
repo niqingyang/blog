@@ -9,7 +9,7 @@ tags:
     - feature
 themeColor: "#2196f3"
 coverColor: rgba(33, 150, 243, 0.91)
-coverImage: https://static.acme.top/wp-content/uploads/2019/06/wp-editor.md_.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224611-wp-editor.md_.png
 ---
 
 ## 前言
@@ -127,7 +127,7 @@ var wpEditormd = editormd({
 
 部署好后，工具栏右上角就会多出三个按钮，然后就可以愉快的在全屏下写文章了~
 
-![](https://static.acme.top/wp-content/uploads/2019/06/paste-e6e62536cd9cd221d6f1d4cfbf602b83-1.png?w=1421&h=322)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205436-paste-e6e62536cd9cd221d6f1d4cfbf602b83-1.png)
 
 ## 参考资料
 

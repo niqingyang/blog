@@ -10,7 +10,7 @@ tags:
     - java
 themeColor: "#137300"
 themeColor: "#137300f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/07/spring-security.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225058-spring-security.png
 ---
 
 ## 前言
@@ -50,7 +50,7 @@ if (principal instanceof UserDetails) {
 
 Authentication 是一个接口，用来表示用户认证信息的（例如用户密码、密码），在用户登录认证之前相关信息会封装为一个 Authentication 具体实现类的对象，在登录认证成功之后又会生成一个信息更全面，包含用户权限等信息的 Authentication 对象，然后把它保存在 SecurityContextHolder 所持有的 SecurityContext 中，供后续的程序进行调用，如访问权限的鉴定等。
 
-![Authentication 的子类](https://static.acme.top/wp-content/uploads/2019/07/paste-14c1241c35eae595c084cbd88b7de5ed-1.png?w=380&h=195)
+![Authentication 的子类](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205710-paste-14c1241c35eae595c084cbd88b7de5ed-1.png)
 
 ### UserDetailsService
 
@@ -66,7 +66,7 @@ UserDetails loadUserByUsername（String username）throws UsernameNotFoundExcept
 
 在 Spring Security 内部很多地方需要使用用户信息的时候基本上都是使用的 UserDetails，比如在登录认证的时候。登录认证的时候 Spring Security 会通过 UserDetailsService 的 loadUserByUsername() 方法获取对应的 UserDetails 进行认证，认证通过后会将该 UserDetails 赋给认证通过的 Authentication 的 principal，然后再把该 Authentication 存入到 SecurityContext 中。之后如果需要使用用户信息的时候就是通过 SecurityContextHolder 获取存放在 SecurityContext 中的 Authentication 的 principal。
 
-![UserDetailsService 实现类](https://static.acme.top/wp-content/uploads/2019/07/paste-a1f7cf5eae7ff958b56e9b957fb59564-1.png?w=235&h=114)
+![UserDetailsService 实现类](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205718-paste-a1f7cf5eae7ff958b56e9b957fb59564-1.png)
 
 ### GrantedAuthority
 
@@ -76,7 +76,7 @@ GrantedAuthority 中只定义了一个 getAuthority() 方法，该方法返回�
 
 Spring Security 针对 GrantedAuthority 有一个简单实现 SimpleGrantedAuthority。该类只是简单的接收一个表示权限的字符串。Spring Security 内部的所有 AuthenticationProvider 都是使用 SimpleGrantedAuthority 来封装 Authentication 对象。
 
-![GrantedAuthority 实现类](https://static.acme.top/wp-content/uploads/2019/07/paste-8cfd4b99089c166ac5741025bf065e2c-1.png?w=242&h=93)
+![GrantedAuthority 实现类](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205724-paste-8cfd4b99089c166ac5741025bf065e2c-1.png)
 
 ### AuthenticationManager
 
@@ -150,7 +150,7 @@ Spinrg Security 中可以配置多个 HttpSecurity，每个 HttpSecurity 的配�
 
 查看过几个过滤器的源码后，会发现大部分过滤器都继承自 GenericFilterBean
 
-![GenericFilterBean 的子类](https://static.acme.top/wp-content/uploads/2019/07/paste-c45638a211fedcc4fd85887ffbdcbf31-1.png?w=434&h=920)
+![GenericFilterBean 的子类](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205823-paste-c45638a211fedcc4fd85887ffbdcbf31-1.png)
 
 上图中黄色标出的类，也就是以 `AuthenticationFilter` 关键词结尾的过滤器，都是用于用户身份认证的过滤器，但默认仅配置了 `UsernamePasswordAuthenticationFilter` 和 `BasicAuthenticationFilter` 这两个过滤器，其他的如果有需要需要自行进行配置。
 
@@ -158,38 +158,38 @@ Spinrg Security 中可以配置多个 HttpSecurity，每个 HttpSecurity 的配�
 
 `UsernamePasswordAuthenticationFilter` 只会处理 `POST /login` 请求
 
-![AbstractAuthenticationProcessingFilter](https://static.acme.top/wp-content/uploads/2019/07/paste-e5357577f4468f28c4c7bc1edc04d5c9-1.png?w=918&h=382)
+![AbstractAuthenticationProcessingFilter](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205830-paste-e5357577f4468f28c4c7bc1edc04d5c9-1.png)
 
-![UsernamePasswordAuthenticationFilter](https://static.acme.top/wp-content/uploads/2019/07/paste-9d319d9ed7ed0ff29f792d5a864f3e4b-1.png?w=799&h=203)
+![UsernamePasswordAuthenticationFilter](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205837-paste-9d319d9ed7ed0ff29f792d5a864f3e4b-1.png)
 
 `BasicAuthenticationFilter` 只会处理请求头中包含 `Authorization` 并且以 `basic ` 开头的请求
 
-![BasicAuthenticationFilter](https://static.acme.top/wp-content/uploads/2019/07/paste-b1f8722052149ab3c6b2caa303ca8f87-1.png?w=845&h=328)
+![BasicAuthenticationFilter](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205843-paste-b1f8722052149ab3c6b2caa303ca8f87-1.png)
 
 类似的这些用于身份认证的 `Filter` 在一次请求过程中仅会进入其中的一个进行处理，而先进入哪一个取决与他们的排序，我们自定义的身份认证过滤器一般都通过 `HttpSecurity` 的 `addFilter`、`addFilterAfter`、`addFilterBefore` 添加在某个身份认证过滤器的前后来控制器验证的先后顺序。
 
 认证过滤器最后会通过 `AuthenticationManager` 的 `authenticate()` 函数对 `Authentication` 进行身份认证
 
-![进行身份认证](https://static.acme.top/wp-content/uploads/2019/07/paste-296cca41d6b62f63c94dbb13ff92f812-1.png?w=1084&h=764)
+![进行身份认证](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205850-paste-296cca41d6b62f63c94dbb13ff92f812-1.png)
 
 通过源码可以看出，每个类型的身份认证过滤器在执行认证过程中都根据认证信息生成 `Authentication`。使用用户名和密码登录时，就会生成 `UsernamePasswordAuthenticationToken`。
 
-![Authentication 的子类](https://static.acme.top/wp-content/uploads/2019/07/paste-14c1241c35eae595c084cbd88b7de5ed-1.png?w=380&h=195)
+![Authentication 的子类](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205857-paste-14c1241c35eae595c084cbd88b7de5ed-1-20210410205857470.png)
 
 经过前面的过滤器后，最后会进入到 `FilterSecurityInterceptor`，这是整个 spring security 过滤器链的最后一环，在它身后就是服务的 API。`FilterSecurityInterceptor` 通过属性 `AuthenticationManager` (认证管理器) 、 `AccessDecisionManager` （访问授权决策器）和一些配置来决定当前的请求是否可以访问的到真正的资源，其主要功能是在父类 `AbstractSecurityInterceptor` 中实现的。
 
-![AbstractSecurityInterceptor](https://static.acme.top/wp-content/uploads/2019/07/paste-ec4fb03d6afc559e42d274462801b453-1.png?w=1076&h=940)
+![AbstractSecurityInterceptor](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205902-paste-ec4fb03d6afc559e42d274462801b453-1.png)
 
 1️⃣ 获取权限的配置属性，用于后面交给 `AccessDecisionManager` 来觉得是否有权访问目标资源
 2️⃣ 当前上下文必须有用户认证信息 `Authentication`，匿名访问的请求会通过过滤器 `AnonymousAuthenticationToken` 来生成 `Authentication`。
 3️⃣ Authentication 是通过函数 `authenticateIfRequired()` 获取到的，其内部会根据上下文中的 authentication 和属性 `alwaysReauthenticate` 来判断是否需要重新进行认证，不需要则直接返回上下文中已存在的 authentication，否则重新认证并更新上下文中的 authentication 并返回。
 
-![authenticateIfRequired() 中判断是否有必要进行认证](https://static.acme.top/wp-content/uploads/2019/07/paste-053e65ba32a8afab32214a6768c5f828-1.png?w=1018&h=739)
+![authenticateIfRequired() 中判断是否有必要进行认证](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210011-paste-053e65ba32a8afab32214a6768c5f828-1.png)
 
 4️⃣ 获取到认证过的 `Authentication` 后，会使用 访问决策管理器 `AccessDecisionManager` 判断是否有权限，管理器会管理者多个 访问决策投票器 `AccessDecisionVoter`，通过投票器来决定是否有权限访问资源。我们也可以自定义投票器来判断用户是否有权限访问某个资源。
 
-![AffirmativeBased](https://static.acme.top/wp-content/uploads/2019/07/paste-57cccc4ac291ba21743f8e571694aa3a-1.png?w=1016&h=780)
+![AffirmativeBased](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210020-paste-57cccc4ac291ba21743f8e571694aa3a-1.png)
 
 5️⃣ 最后，如果未认证通过或没有权限，FilterSecurityInterceptor 则抛出相应的异常，异常会被 ExceptionTranslationFilter 捕捉到，进行统一的异常处理分流，比如未登录时，重定向到登录页面；没有权限的时候抛出403异常等。
 
-![ExceptionTranslationFilter](https://static.acme.top/wp-content/uploads/2019/07/paste-bfb4ffa4058c6516c0898998a02ae4e7-1.png?w=1178&h=925)
+![ExceptionTranslationFilter](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210030-paste-bfb4ffa4058c6516c0898998a02ae4e7-1.png)

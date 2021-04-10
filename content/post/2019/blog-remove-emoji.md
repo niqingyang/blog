@@ -8,7 +8,7 @@ tags:
     - emoji
 coverColor: "#f2c800"
 coverColor: "#f4cc04f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/07/wordpress-remove-emoji.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224644-wordpress-remove-emoji.png
 ---
 
 wordpress 自 4.2 起自带了 emoji 功能，默认使用 http://s.w.org/images/core/emoji/72x72/ 下的图片来渲染 emoji，可以使用下面的方式替换为 twitter 扁平化风格的 emoji

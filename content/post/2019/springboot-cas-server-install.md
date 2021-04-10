@@ -10,7 +10,7 @@ tags:
     - springboot
     - sso
 coverColor: "#6cbc44f7"
-coverImage: https://static.acme.top/wp-content/uploads/2019/02/sso.png
+coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225129-sso.png
 ---
 
 <info>
@@ -79,7 +79,7 @@ gradlew build
 
 CAS 5 默认需要HTTPS，HTTP不能访问，所以需要配置证书路径，如果没有进行证书的配置启动会报错：Caused by: java.io.FileNotFoundException: \\etc\\cas\\thekeystore (系统找不到指定的文件。)
 
-![](https://static.acme.top/wp-content/uploads/2019/02/paste-cb4f609674c58255414cf3dad4c8684b-1.png?w=859&h=452)
+![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210655-paste-cb4f609674c58255414cf3dad4c8684b-1.png)
 
 解决办法有以下两种：利用 JDK 的 keytool 工具生成证书，或者用 CAS Overlay 生成证书。
 
@@ -121,7 +121,7 @@ keytool -delete -alias cas -keystore .\\cacerts
 
 修改 cas-overlay-template 目录下的 build.sh 文件，修改下图中标红的地方，将相关域名、IP、DNS等按自己的配置修改好。DNS 要和 CAS 服务的域名一致，否则会导致客户端调用服务时出现错误：
 
-![build.sh中修改生成证书的配置](https://static.acme.top/wp-content/uploads/2019/02/paste-aae4dff165ef48e8784ecd1473cbe7e5-1.png?w=1146&h=288)
+![build.sh中修改生成证书的配置](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210703-paste-aae4dff165ef48e8784ecd1473cbe7e5-1.png)
 
 修改不正确可能会出现的额外错误：
 
@@ -168,17 +168,17 @@ gradlew run
 
 出现如下图中的 “READY” 就代表启动成功了
 
-![cas server 启动成功的信息](https://static.acme.top/wp-content/uploads/2019/02/paste-90a5260177020ca42babde6b9b70895c-1.png?w=859&h=452)
+![cas server 启动成功的信息](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410210710-paste-90a5260177020ca42babde6b9b70895c-1.png)
 
 #### 八、访问并登录
 
 访问 第六步 中的服务链接地址 <code>http://cas.example.org:8443/cas</code> 会出现如下图
 
-![登录页面](https://static.acme.top/wp-content/uploads/2019/02/paste-f9bb8b769f41424e11e7d4be0d2ccd3e-1.png?w=1120&h=631)
+![登录页面](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223344-paste-f9bb8b769f41424e11e7d4be0d2ccd3e-1.png)
 
 输入默认的用户名/密码：casuser/Mellon，登录成功
 
-![登录成功](https://static.acme.top/wp-content/uploads/2019/02/paste-a75e752a329c5a98e25528973656dba8-1.png?w=1133&h=454)
+![登录成功](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223351-paste-a75e752a329c5a98e25528973656dba8-1.png)
 
 
 ### 九、自定义相关配置
