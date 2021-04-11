@@ -1,14 +1,17 @@
-+++
-title = "商品列表"
-date = "2021-01-13T19:01:39+08:00"
-draft = true
-categories = ["使用软件"]
-tags = ["aria2", "下载"]
-coverImage = "https://static.acme.top/wp-content/uploads/2020/06/aria2.png"
-coverColor = "rgba(65, 73, 90, 0.97)"
-coverStyle = 0
-themeColor = "#1890ff"
-+++
+---
+title: "商品列表"
+date: 2021-01-13T19:01:39+08:00
+draft: true
+categories: 
+    - soft
+tags:
+    - aria2
+    - 下载
+coverImage: "https://static.acme.top/wp-content/uploads/2020/06/aria2.png"
+coverColor: "rgba(65, 73, 90, 0.97)"
+coverStyle: 0
+themeColor: "#1890ff"
+---
 
 
 ## 前言

@@ -25,6 +25,44 @@ tags:
 </info>
 
 
+
+## 超链接
+
+[超链接示例](#)
+
+```markdown
+[链接名称](链接地址)
+```
+
+## 徽章
+
+<badge>徽章</badge>
+<badge class="success">徽章</badge>
+<badge class="warning">徽章</badge>
+<badge class="danger">徽章</badge>
+
+```html
+<badge>徽章</badge>
+<badge class="success">徽章</badge>
+<badge class="warning">徽章</badge>
+<badge class="danger">徽章</badge>
+```
+
+## 详情
+
+<details open>
+	<summary> 标题  </summary>
+  内容
+</details>
+
+```markdown
+<details open>
+	<summary> 标题 </summary>
+	内容
+</details>
+```
+
+
 ## 表格
 
 
@@ -120,8 +158,5 @@ tags:
 
 </danger>
 ```
-
-
-
 
 
