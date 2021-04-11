@@ -10,7 +10,7 @@ themeColor: "#1e88e5"
 coverIcon: "turned_in"
 coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225435-headerbg_links.jpeg
 ## 链接配置文件名称
-linksConfig: "follows"
+linksConfig: follows
 ## 禁止评论
 comment: false
 ---
