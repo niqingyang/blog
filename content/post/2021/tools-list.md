@@ -22,3 +22,7 @@ themeColor: "#ff9800"
 
 免费、全平台、多种时间维度、支持团队协作的任务清单。
 
+### Aria2 <badge>下载</badge>
+
+### jsdelivr <badge>cdn</badge>
+

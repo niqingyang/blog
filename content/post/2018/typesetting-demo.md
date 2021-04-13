@@ -26,6 +26,25 @@ tags:
 
 
 
+## Math Equation
+
+Inline math equation: $a+b$
+
+$$
+\displaystyle \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
+
+## Mermaid Diagrams
+
+```mermaid
+  graph TD;
+  	A[Start] --> B{Is it?};
+    B -->|Yes| C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B ---->|No| E[End];
+```
+
 ## 超链接
 
 [超链接示例](#)
@@ -55,6 +74,7 @@ tags:
   内容
 </details>
 
+
 ```markdown
 <details open>
 	<summary> 标题 </summary>
@@ -68,7 +88,7 @@ tags:
 
 
 | 序号 | 名称        | 内容             |
-| :--- | :---------- | ---------------- |
+| --- | ---------- | ---------------- |
 | 1    | Spring Boot | 快速搭建Web工程  |
 | 2    | Wordpress   | 主题和插件的开发 |
 
