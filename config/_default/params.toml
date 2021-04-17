@@ -17,9 +17,9 @@ coverStyle = 0
 ## 文章页封面图上标题的颜色风格：0-默认 1-明亮 2-暗色
 titleStyle = 0
 ## 列表页默认封面图
-listCoverImage = "https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225946-headerbg_archive.jpeg"
+listCoverImage = "https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225946-headerbg_archive.jpeg"
 ## 头像图片
-avatarImg = "https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/avatar.jpeg"
+avatarImg = "https://cdn.jsdelivr.net/gh/acme-top/static@master/images/avatar.jpeg"
 
 ## 二维码赞助渠道设置，注释掉后将隐藏
 [sponsor]
@@ -28,11 +28,11 @@ description = "如果文章对您有帮助，欢迎给作者打赏"
 
 [[sponsor.channels]]
 name = "支付宝"
-qrcode = "https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230007-alipay_qrcode.png"
+qrcode = "https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230007-alipay_qrcode.png"
 
 [[sponsor.channels]]
 name = "微信"
-qrcode = "https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230028-weixinpay_qrcode.png"
+qrcode = "https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230028-weixinpay_qrcode.png"
 
 ## 社交平台，url为空则会忽略
 [[socialPlatforms]]

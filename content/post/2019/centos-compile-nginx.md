@@ -9,7 +9,7 @@ tags:
     - centos
     - linux
 coverColor: "#13943df7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224737-install-nginx-cool.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224737-install-nginx-cool.png
 ---
 
 ## 安装环境
@@ -146,7 +146,7 @@ make linux
 
 [LuaJIT](http://luajit.org/ "LuaJIT") 安装 lua-nginx-module-0.10.14 模块依赖 LuaJIT，但如果安装官方的版本在启动 nginx 的时候会提示如下图：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205536-paste-d6b7bc7a96a1c8267b12259efbdeb8b5-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205536-paste-d6b7bc7a96a1c8267b12259efbdeb8b5-1.png)
 
 lua-nginx-module 的作者单独 fork 了一个分支自己维护，如果不用 https://github.com/openresty/luajit2 这个，那么需要参数都将失效
 
@@ -464,6 +464,6 @@ service nginx status
 
 浏览器访问 http://localhost
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205547-paste-fbc375cd9f7c6fcc50eb833f46b94cac-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205547-paste-fbc375cd9f7c6fcc50eb833f46b94cac-1.png)
 
 如上图说明安装成功！

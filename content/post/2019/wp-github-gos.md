@@ -8,7 +8,7 @@ tags:
     - github
     - 图床
 coverColor: "#2574abf7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225158-wp_github_gos.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225158-wp_github_gos.png
 ---
 
 ## 前言
@@ -61,15 +61,15 @@ Github 项目地址: [https://github.com/niqingyang/wp-github-gos](https://githu
 2. 并创建一个用于存放附件的公开的仓库
 3. 创建一个 access token
 
-![点击 settings 菜单](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223451-paste-3fcd46b9dd1495dae823a40edfa37fbb-1.png)
+![点击 settings 菜单](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223451-paste-3fcd46b9dd1495dae823a40edfa37fbb-1.png)
 
-![进入 Developer Settings 页面创建 Token](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223457-paste-05312293588326deb1dbad23b28f41de-1.png)
+![进入 Developer Settings 页面创建 Token](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223457-paste-05312293588326deb1dbad23b28f41de-1.png)
 
-![勾选必要的权限](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223505-paste-905e412f7c8cd8018957961c14f9c315-1.png)
+![勾选必要的权限](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223505-paste-905e412f7c8cd8018957961c14f9c315-1.png)
 
 4. 将 `Github 账户名`、`仓库名`、`access token` 粘帖到该插件设置页面中相应的位置
 
-![填写相关设置](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223526-paste-7fa86ef9fd73858f6491d23919e5ac3c-1.png)
+![填写相关设置](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223526-paste-7fa86ef9fd73858f6491d23919e5ac3c-1.png)
 
 5. URL前缀的格式为 `https://raw.githubusercontent.com/{用户名}/{仓库名}/master/`，或者 `https://raw.githubusercontent.com/{用户名}/{仓库名}/master/{本地文件夹}`，“本地文件夹” 务必与上面设置的 “本地文件夹” 保持一致（结尾无/）
 
@@ -79,7 +79,7 @@ Github 项目地址: [https://github.com/niqingyang/wp-github-gos](https://githu
 
 ## 插件预览
 
-![设置页预览](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223535-paste-ac1ecbb94dfeb65dbe5fd75f49171446-1.png)
+![设置页预览](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223535-paste-ac1ecbb94dfeb65dbe5fd75f49171446-1.png)
 
 ## 常见问题
 
@@ -87,7 +87,7 @@ Github 项目地址: [https://github.com/niqingyang/wp-github-gos](https://githu
 
 这个插件已经加上了替换数据库中之前的旧资源地址链接功能，只需要填好对应的链接即可，如图所示
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230618-paste-be19add5c14b2d259e53a8d1b67ee8e6-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230618-paste-be19add5c14b2d259e53a8d1b67ee8e6-1.png)
 
 ## WP-Editor.md
 

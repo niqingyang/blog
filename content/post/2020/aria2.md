@@ -9,7 +9,7 @@ tags:
     - 下载
 themeColor: "#404a5d"
 coverColor: rgba(65, 73, 90, 0.97)
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225219-aria2.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225219-aria2.png
 coverStyle: 0
 ---
 
@@ -218,13 +218,13 @@ AriaNG 是一个利用 Aria2 JSONPRC 接口实现的可视化 WEB 界面，支�
 
 此处以 Edge 为例（无需翻墙），在官方扩展商店中搜索 aria2，安装如下图的扩展：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223553-apps.32562.625b4f3d-bb75-494e-baf4-693b199e4ca7.a178a838-46e7-4016-bfa7-83ba339fd810.4ada587c-e694-4345-a869-2f1e45a7a627)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223553-apps.32562.625b4f3d-bb75-494e-baf4-693b199e4ca7.a178a838-46e7-4016-bfa7-83ba339fd810.4ada587c-e694-4345-a869-2f1e45a7a627)
 
 ### 配置
 
 打开扩展的选项页面，勾选各种自动拦截下载的选项，在 `JSON-RPC` 一行添加 `Secret Key`，也就上面配置中 `rpc-secret=<Secret Key>` 中的 `<Secret Key>`，然后点击 `Save` 按钮即可。
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223558-paste-375f855a7375252ae68fe9e240786762-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223558-paste-375f855a7375252ae68fe9e240786762-1.png)
 
 ### 启动
 
@@ -251,7 +251,7 @@ aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c -D
 
 配置无误后打开扩展界面，会显示已连接
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410223608-paste-eea4dbd8120310ba27d831eb7b9462f3-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410223608-paste-eea4dbd8120310ba27d831eb7b9462f3-1.png)
 
 这样配置完成后，再下载文件都会被 AriaNg 扩展拦截并通过 Aria2 下载了~
 

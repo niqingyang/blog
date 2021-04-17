@@ -8,7 +8,7 @@ tags:
     - cas
     - sso
 coverColor: "#f48313f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224720-sso-user.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224720-sso-user.png
 ---
 
 <info>
@@ -31,7 +31,7 @@ gradlew eclipse
 
 2. 导入项目到 eclipse 中
 
-![cas项目目录结构](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205501-paste-0f8e40835588d94e219bb860a0ac92d1-1.png)
+![cas项目目录结构](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205501-paste-0f8e40835588d94e219bb860a0ac92d1-1.png)
 
 <info>
 

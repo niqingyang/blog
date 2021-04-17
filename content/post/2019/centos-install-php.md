@@ -9,7 +9,7 @@ tags:
     - centos
     - linux
 coverColor: "#343434f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224800-centos-install-php.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224800-centos-install-php.png
 ---
 
 ## 简介
@@ -276,7 +276,7 @@ echo "<?php phpinfo(); ?>" >> /usr/local/nginx/html/index.php
 
 6. 打开浏览器，访问 http://localhost，将会显示 phpinfo()
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205600-paste-d346f556257b7b798e86c5c9fd0689d0-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205600-paste-d346f556257b7b798e86c5c9fd0689d0-1.png)
 
 通过以上步骤的配置，Nginx 服务器现在可以以 SAPI SAPI 模块的方式支持 PHP 应用了
 

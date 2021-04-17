@@ -9,7 +9,7 @@ tags:
     - sso
     - jdbc
 coverColor: "#4c5354f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224701-cas-jdbc.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224701-cas-jdbc.png
 ---
 
 <info>
@@ -131,12 +131,12 @@ CAS 支持的密码类型
 
 1. 正常账户 acme 登录，密码 123456，登录成功
 
-![登录成功](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230551-acme-login-cas.gif)
+![登录成功](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230551-acme-login-cas.gif)
 
 2. expired 账户登录失败
 
-![账户已过期](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230545-paste-264ec30667023a742625024d23ddccd2-1.png)
+![账户已过期](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230545-paste-264ec30667023a742625024d23ddccd2-1.png)
 
 3. disabled 账户登录失败
 
-![账户已被禁用](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410230539-paste-a51d884637424d9b5bba8876e029b656-1.png)
+![账户已被禁用](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410230539-paste-a51d884637424d9b5bba8876e029b656-1.png)

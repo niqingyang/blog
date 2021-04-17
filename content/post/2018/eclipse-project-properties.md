@@ -8,7 +8,7 @@ tags:
 categories:
     - develop
 coverColor: "#444444f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224416-eclipse-01.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224416-eclipse-01.png
 ---
 
 <info>
@@ -24,7 +24,7 @@ Facets英文意思为方面。
 
 Eclipse 中 Project Facets 配置界面如下图：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204917-ac228de3f724355d8edc474ce8250a32.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204917-ac228de3f724355d8edc474ce8250a32.png)
 
 - 如果项目是一个最简单Java Project，那么应该只会有Java被勾选；
 - 如果项目是一个Java Web Project，那么 Dynamic Web Module 也会被勾选，同时 JavaScript 也会被勾选，Java Web 项目在目录结构上会多出 WebContent 或者 WebRoot 目录，并在项目属性中多出 Deployment Assembly、Web Content Settings、Web Page Editor、Web Project Settings 等只有Web项目才需要的选项；
@@ -38,7 +38,7 @@ Eclipse 中 Project Facets 配置界面如下图：
 
 ## 检查 Java Compiler
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204926-93108bcee5464efd20c003d6e91a533a.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204926-93108bcee5464efd20c003d6e91a533a.png)
 
 <!--begin.tip-->
 
@@ -52,7 +52,7 @@ Eclipse 中 Project Facets 配置界面如下图：
 
 重新选择并设置一下源码目录即可：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204935-b7f1d2000c4ece8ea854dd3df2f656f6.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204935-b7f1d2000c4ece8ea854dd3df2f656f6.png)
 
 <!--begin.tip-->
 
@@ -63,7 +63,7 @@ Eclipse 中 Project Facets 配置界面如下图：
 
 ## Deployment Assembly
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205216-032d9cba752df7feb241028be4e4a32e.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205216-032d9cba752df7feb241028be4e4a32e.png)
 
 <!--begin.tip-->
 
@@ -74,7 +74,7 @@ Eclipse 中 Project Facets 配置界面如下图：
 
 ## Web Project Setttings
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205223-c471b0c3793f9cd023c1678d2ed637fa.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205223-c471b0c3793f9cd023c1678d2ed637fa.png)
 
 <!--begin.tip-->
 

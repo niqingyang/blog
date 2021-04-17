@@ -40,13 +40,13 @@ coverColor: "#00bcd4"
 
 于是又回头示例目录下 `astilectron-bundler -v` 重新编译了一下，此时从输出的日志中颤抖的发现了 `electron-windows-amd64-v4.0.1.zip` 几个大字：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205627-paste-c1e368b8ef7892411463c57cba5cad47-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205627-paste-c1e368b8ef7892411463c57cba5cad47-1.png)
 
 原来 `electron-windows-amd64-4.0.1.zip` 会被缓存在目录 `D:\\Users\\Temp\\astibundler\\cache` 下，缓存的文件也是已损坏，初步判断 `electron-windows-amd64-4.0.1.zip` 都是从这里复制过去的，于是删除此目录下的缓存，重新编译，果然，此文件会重新下载！！🎉😁🎉
 
 然后颤抖着双击生成的 exe 文件，终于启动起来了！！此处泪流满面... 😭
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410205634-paste-51caeca8cbaf3dd1ab72200834956711-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410205634-paste-51caeca8cbaf3dd1ab72200834956711-1.png)
 
 ## 总结
 

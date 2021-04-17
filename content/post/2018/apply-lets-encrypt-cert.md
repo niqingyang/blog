@@ -12,7 +12,7 @@ tags:
     - win10
 themeColor: "#28426e"
 coverColor: "#28426ef7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224247-letsencrypt.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224247-letsencrypt.png
 ---
 
 <info>
@@ -76,9 +76,9 @@ Let’s Encrypt 对 ACME 协议的实现进行了升级，只有 v2 协议才能
 
 首先安装 Certbot。打开官网 [https://certbot.eff.org/](https://certbot.eff.org/ "https://certbot.eff.org/") ，选择申请证书的使用方式后，就会出现相关的安装命令了。
 
-![选择自己的运行环境和操作系统版本](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204543-paste-ddacdb0f1cd409ccb492967bd140957c-1.png)
+![选择自己的运行环境和操作系统版本](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204543-paste-ddacdb0f1cd409ccb492967bd140957c-1.png)
 
-![自动生成的安装命令](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204556-paste-3f5ec54c65fed0c59f0df4ef92154dab-1.png)
+![自动生成的安装命令](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204556-paste-3f5ec54c65fed0c59f0df4ef92154dab-1.png)
 
 我当前的 Ubuntu 版本为 Ubuntu 18.04.1 LTS，看到的安装命令为：
 
@@ -108,7 +108,7 @@ $ sudo certbot certonly  -d *.acme.top --manual --preferred-challenges dns --ser
 
 命令执行后输出如下图：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204608-paste-9921c9053833eb559cf67c1e67e0abde-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204608-paste-9921c9053833eb559cf67c1e67e0abde-1.png)
 
 上图交互中有两个交互的提示：
 
@@ -121,11 +121,11 @@ $ sudo certbot certonly  -d *.acme.top --manual --preferred-challenges dns --ser
 
 否则会验证失败如下图：
 
-![DNS验证失败](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204808-paste-5fff6665685b69f28b03f4f13162a9b5-1.png)
+![DNS验证失败](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204808-paste-5fff6665685b69f28b03f4f13162a9b5-1.png)
 
 我使用的是阿里云的域名服务器，登录控制台配置如下图：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204815-paste-418a153f2680edce320e1c2af85a2667-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204815-paste-418a153f2680edce320e1c2af85a2667-1.png)
 
 然后打开一个新的终端输入下面的命令来确认 DNS 解析是否生效：
 
@@ -135,15 +135,15 @@ dig -t txt _acme-challenge.acme.top
 
 输出结果如下则表示 DNS 记录已经生效了
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204825-paste-ee55e4169a94b1b6e41c177881555f45-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204825-paste-ee55e4169a94b1b6e41c177881555f45-1.png)
 
 然后回到上一个终端中敲回车键执行，输出如下图，则表示证书生成成功：
 
-![](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204831-paste-8001ed1b178ded5a15dcf32a998d44f1-1.png)
+![](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204831-paste-8001ed1b178ded5a15dcf32a998d44f1-1.png)
 
 输出中表示把相关证书保存在了 `/etc/letsencrypt/live/acme.top/` 这个目录下，生成的文件如下图：
 
-![需要root用户才能进入](https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410204839-paste-21ebbcfe4ea164c04160939381711a0b-1.png)
+![需要root用户才能进入](https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410204839-paste-21ebbcfe4ea164c04160939381711a0b-1.png)
 
 至此，申请通配符证书就完成了。
 

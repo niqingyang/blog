@@ -8,7 +8,7 @@ tags:
     - es5
     - js
 coverColor: rgba(255, 193, 7, 0.97)
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224839-es5.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224839-es5.png
 coverStyle: 1
 ---
 

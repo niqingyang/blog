@@ -5,7 +5,7 @@ draft: false
 format: page
 # person
 coverIcon: "&#xe7fd;"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410232821-headerbg_about.jpg
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410232821-headerbg_about.jpg
 ---
 
 ## 关于本人

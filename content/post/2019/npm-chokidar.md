@@ -10,7 +10,7 @@ tags:
     - npm
     - js
 coverColor: "#942b2bf7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225005-npm-libs.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225005-npm-libs.png
 ---
 
 ## 前言

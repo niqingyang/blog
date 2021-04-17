@@ -10,7 +10,7 @@ tags:
     - 国际化
 themeColor: "#190843"
 coverColor: "#190843f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225237-react-intl.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225237-react-intl.png
 ---
 
 ## 前言

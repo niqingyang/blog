@@ -6,7 +6,7 @@ format: page
 ## &#xe1e2;
 themeColor: "#1e88e5"
 coverIcon: "wifi_tethering"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410225514-headerbg_links.jpeg
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225514-headerbg_links.jpeg
 ## 禁止评论
 comment: false
 ## 链接

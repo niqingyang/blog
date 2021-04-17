@@ -10,7 +10,7 @@ tags:
     - mobx
 themeColor: "#d75813"
 coverColor: "#d75c14f7"
-coverImage: https://cdn.jsdelivr.net/gh/niqingyang/blog-static@main/images/2021/04/20210410224928-mobx-react-stores.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410224928-mobx-react-stores.png
 ---
 
 ## 前言
