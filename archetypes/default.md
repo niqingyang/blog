@@ -10,5 +10,7 @@ draft: true
 # coverColor: "rgba(0,0,0,0.3)"
 ## 封面图片
 # coverImage: 
+## 文章页封面图分割：0-默认小图模式 1-大图模式
+# coverStyle: 0
 ---
 

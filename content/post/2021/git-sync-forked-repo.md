@@ -11,14 +11,18 @@ tags:
 ## 主题色
 themeColor: "#fa541c"
 ## 封面颜色
-# coverColor: "rgba(0,0,0,0.3)"
+coverColor: "rgba(0,0,0,0.7)"
 ## 封面图片
-coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210417152949-git-sync-forked-repo.png
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210417211044-git-sync-forked-repo.png
+## 文章页封面图分割：0-默认小图模式 1-大图模式
+coverStyle: 1
 ---
 
+<info>
 
+> Git fork 了其他的仓库后，后续与原仓库的同步操作记录如下
 
-> Git fork 了其他的仓库后，后续与原仓库的同步操作参考如下
+</info>
 
 ## 说明
 
