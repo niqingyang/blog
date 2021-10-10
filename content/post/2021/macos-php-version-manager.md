@@ -75,13 +75,13 @@ coverImage: https://repository-images.githubusercontent.com/229187949/f140f880-4
     php -v
     ```
 
-<warning>
+    <warning>
 
-> **常见错误**
->
-> 如果遇到类似错误：`dyld: Library not loaded: /usr/local/opt/tidy-html5/lib/libtidy.58.dylib`，则可能是你的 `tidy-html5` 版本太低了，可以尝试执行 `brew reinstall tidy-html5` 重新安装
+    > **常见错误**
+    >
+    > 如果遇到类似错误：`dyld: Library not loaded: /usr/local/opt/tidy-html5/lib/libtidy.58.dylib`，则可能是你的 `tidy-html5` 版本太低了，可以尝试执行 `brew reinstall tidy-html5` 重新安装
 
-</warning>
+    </warning>
 
 ## 升级 PHP 版本
 
