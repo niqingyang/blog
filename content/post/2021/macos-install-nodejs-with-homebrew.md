@@ -1,7 +1,7 @@
 ---
 title: "MacOS 安装指定版本的 NodeJS"
 date: 2021-02-19T21:35:56+08:00
-draft: true
+draft: false
 categores:
     - 前端开发
 tags:
@@ -13,7 +13,7 @@ themeColor: "#389e0d"
 ## 封面颜色
 # coverColor: "rgba(0,0,0,0.3)"
 ## 封面图片
-# coverImage: 
+## coverImage: 
 ---
 
 ## 安装
