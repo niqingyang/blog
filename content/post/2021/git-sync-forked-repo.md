@@ -43,6 +43,10 @@ git remote add upstream xxxxx
 git pull upstream master
 # 推送本地变更到自己的远端仓库
 git push
+# 推送到远端指定分支
+git push <远程主机名> <本地分支名>:<远程分支名>
+# 如下
+git push origin master:master
 ```
 
 ## 参考
