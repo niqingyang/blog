@@ -3,9 +3,9 @@
 title: "Mac OS PHP 版本管理"
 date: 2021-10-10T15:24:17+08:00
 draft: false
-Categories:
-  - 开发笔记
-Tags:
+categories:
+  - develop
+tags:
   - php
   - macos
 ## 格式：aside、chat、status、quote、link、gallery、image、audio、video，为空则代表标准格式

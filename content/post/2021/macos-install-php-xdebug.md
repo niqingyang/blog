@@ -2,9 +2,9 @@
 title: "Mac OS 下安装 PHP XDebug"
 date: 2021-04-26T00:17:58+08:00
 draft: true
-Categories:
-  - 开发笔记
-Tags:
+categories:
+  - develop
+tags:
   - php
   - xdebug
 ## 格式：aside、chat、status、quote、link、gallery、image、audio、video，为空则代表标准格式
@@ -92,7 +92,13 @@ xdebug.client_port="9003"
 xdebug.idekey=PHPSTORM
 ```
 
-​    
+
+
+<info>
+
+> Mac 下 PHP 的安装目录位于 `/usr/local/Cellar/php@7.4`，`php.ini` 的目录位于 `/user/local/etc/php/7.4`
+
+</info>   
 
 ## 原理
 
