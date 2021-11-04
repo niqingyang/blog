@@ -10,11 +10,11 @@ tags:
 ## 格式：aside、chat、status、quote、link、gallery、image、audio、video，为空则代表标准格式
 # format: 
 ## 主题色
-# themeColor: 
+themeColor: "#223c65"
 ## 封面颜色
-# coverColor: "rgba(0,0,0,0.3)"
+coverColor: "rgba(52,91,156,0.97)"
 ## 封面图片
-# coverImage: 
+coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/11/20211104201120-php-xdebug.png
 ## 文章页封面图分割：0-默认小图模式 1-大图模式
 # coverStyle: 0
 ---
