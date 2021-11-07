@@ -11,6 +11,9 @@ defaultContentLanguage = "zh-cn"
 theme = "hugo-acme"
 themesdir = "../themes/"
 
+# if true, auto-detect Chinese/Japanese/Korean Languages in the content. (.Summary and .WordCount can work properly in CJKLanguage)
+hasCJKLanguage = true
+
 ## 定义链接规则
 ## https://gohugo.io/content-management/urls/#permalinks
 [permalinks]

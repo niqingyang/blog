@@ -114,3 +114,8 @@ php bin/console doctrine:migrations:migrate
 php bin/console doctrine:schema:update
 ```
 
+
+
+## 相关文档
+
+- [依赖注入容器组件](https://symfony.com/doc/current/components/dependency_injection.html)
