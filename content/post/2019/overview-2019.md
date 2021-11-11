@@ -6,6 +6,7 @@ categories:
     - 自言自语
 tags:
     - 2019
+    - overview
 themeColor: "#3f2d86"
 coverColor: "#433384f7"
 coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20210410225021-2019_overview-1.png
@@ -49,5 +50,4 @@ coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/04/20
 2019 年利用业余时间在技术上还是有不少进步的（学的杂了些、乱了些），11、12 两个月的出差和加班历程严重影响了我个人安排，导致学习停滞，对加班赶进度深恶痛绝，但客户时间掐的太紧了，为了项目完成好像也没什么更好的办法 ... 有时候和客户技术聊，在岛上和北京工作完全是两种状态，岛上真的更适合生活，而北京好像没什么生活，至少对于我在北京加班赶进度的时候 😟
 
 学习是需要时间的，特别是有娃后时间更为宝贵，要珍惜，更要有规划，至于这规划 ... 暂时好像也没什么更好的规划，也就是充实一下自己的技术栈而已 😁
-
 
