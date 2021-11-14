@@ -1,7 +1,7 @@
 ---
 title: "Git 笔记"
 date: 2021-11-13T23:47:38+08:00
-draft: true
+draft: false
 categories: 
   - develop
 tags: 
