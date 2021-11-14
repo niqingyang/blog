@@ -55,9 +55,9 @@ Links:
       url: https://www.sohamkamani.com/blog
       description: 
     - 
-      name: wang yin
-      url: http://www.yinwang.org/
-      description: 当然他在扯淡
+      name: sidebits
+      url: https://blog.sidebits.tech/
+      description: Milosz Danczak's blog
     - 
       name: 胡涂说
       url: https://hutusi.com/
