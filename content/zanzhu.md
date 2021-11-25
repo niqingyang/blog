@@ -31,7 +31,7 @@ coverIcon: "&#xe263;"
 
 ## 赞助名单（时间先后顺序）
 
-<!--begin.mdui-table-fluid.mdui-table-hoverable-->
+
 
 |  日期  |  昵称  |  渠道  |  金额  |
 | :------------: | :------------: | :------------: | :------------: |
@@ -42,15 +42,13 @@ coverIcon: "&#xe263;"
 |  2019-07-17  |  贾爽  |  QQ  |  1.00  |
 |  2019-11-16  |  张小鹏  |  微信  |  5.00  |
 
-<!--end.mdui-table-fluid.mdui-table-hoverable-->
-
 
 
 <style type="text/css">
     article p img {
         width: 250px;
-        height: 250px;
-        border: 1px solid #00000024;
+        /* height: 250px; */
+        border: 1px solid #ddd !important;
         box-shadow: none !important;
     }
 </style>

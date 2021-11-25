@@ -11,7 +11,7 @@ tags:
 ## 主题色
 themeColor: "#363534"
 ## 封面颜色
-coverColor: "rgba(0,0,0,0.8)"
+coverColor: "rgba(0,0,0,0.75)"
 ## 封面图片
 coverImage: https://cdn.jsdelivr.net/gh/acme-top/static@master/images/2021/11/20211113234817-git.png
 ## 文章页封面图分割：0-默认小图模式 1-大图模式

@@ -1,7 +1,7 @@
 ---
 title: "Mac 下查看端口占用情况"
 date: 2021-05-29T11:59:29+08:00
-draft: true
+draft: false
 ## 格式：aside、chat、status、quote、link、gallery、image、audio、video，为空则代表标准格式
 # format: 
 ## 主题色
