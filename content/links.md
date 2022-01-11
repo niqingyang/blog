@@ -40,7 +40,7 @@ links:
       description: 前进，前进，不择手段地前进！
     - 
       name: 极客兔兔
-      url: geektutu.com
+      url: https://geektutu.com
       description: 致力于分享有趣的技术实践
     - 
       name: 爱尚博客
