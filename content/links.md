@@ -50,9 +50,9 @@ links:
   name: 我的导航
   links:
     -
-	  name: WikiHow
-	  url: https://zh.wikihow.com/
-	  description: 你可以信赖的万事指南
+      name: WikiHow
+      url: https://zh.wikihow.com/
+      description: 你可以信赖的万事指南
 -
   name: 网站工具
   links:
