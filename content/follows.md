@@ -66,6 +66,8 @@ Links:
       name: thephpleague
       url: https://thephpleague.com/
       description: 
-
+    - 
+      name: Ian Storm Taylor
+      Url: https://ianstormtaylor.com/
 ---
 

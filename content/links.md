@@ -50,9 +50,9 @@ links:
   name: 我的导航
   links:
     -
-	  name: WikiHow
-	  url: https://zh.wikihow.com/
-	  description: 你可以信赖的万事指南
+      name: WikiHow
+      url: https://zh.wikihow.com/
+      description: 你可以信赖的万事指南
 -
   name: 网站工具
   links:
@@ -79,6 +79,10 @@ links:
       name: Hacker News
       url: https://hn.etelej.com/
       description: 
+    -
+      name: Lobsters
+      url: https://lobste.rs/
+      description: 一个以计算为中心，以链接聚合和讨论为中心的社区
     - 
       name: hackernoon
       url: https://hackernoon.com/
