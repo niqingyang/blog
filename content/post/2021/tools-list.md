@@ -2,6 +2,10 @@
 title: "生产力工具清单"
 date: 2021-04-12T21:21:18+08:00
 draft: true
+categories: 
+  - software
+tags: 
+  - 工具
 ## 格式：aside、chat、status、quote、link、gallery、image、audio、video，为空则代表标准格式
 # format: 
 ## 主题色

@@ -31,7 +31,7 @@ git submodule - 子模块，允许你将一个 Git 仓库作为另一个 Git 仓
 - 添加
 
 ```bash
-# 进入父级仓库中
+# 进入父级仓库中，如果想强制重新添加，可以使用参数 -f
 git submodule add <submodule_url> [submodules_path]
 ```
 
@@ -121,3 +121,5 @@ git diff; git submodule foreach 'git diff'
 
 - [Git中submodule的使用](https://zhuanlan.zhihu.com/p/87053283)
 - [Git - 子模块](https://git-scm.com/book/zh/v2/Git-工具-子模块)
+
+[git stash用法总结 - 收手吧阿祖 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zublogs/p/16089455.html)

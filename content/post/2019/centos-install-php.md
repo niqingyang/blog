@@ -90,7 +90,8 @@ cd php-7.3.4
 --disable-rpath \\
 --disable-ipv6 \\
 --disable-debug \\
---with-openssl
+--with-openssl \\
+--enable-pcntl
 //检测安装环境，指定安装目录，加载gd，zlib等模块
 # make
 //编译
